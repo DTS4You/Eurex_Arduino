@@ -1,22 +1,22 @@
-//##############################################################################
-//### UBoot-Stepper                                                          ###
-//##############################################################################
-//### Version 1.06                                                           ###
-//###																		                    ###
-//### Ardiono 2560 auf MKS Gen V1.4 Board                                    ###
-//### Datum			: 04.06.2019                                               ###
-//### Änderungen	:                                                          ###
-//###             Ausgangsrelais hinzu                                       ###
-//###             R-Achse auf Timer 2                                        ###
-//###             Z-Ache auf Timer 1 und 5 verteilt                          ###
-//###					Achsen Overflow hinzu												  ###
-//###					Externe Taster hinzu 		-> D23 / D25 / D27 / D29        ###
-//###				   Externe Taster geändert		-> D14 / D15 / D18 / D19        ###
-//###					com_out1 -> Aus - Auto - Ein -> Serial Modul					  ###
-//###					out1,1 -> Scheibe undurchsichtig                           ###
-//###					out1,0 -> Scheibe durchsichtig                             ###
-//###					Umstieg auf Windows													  ###
-//##############################################################################
+//#############################################################################
+//### UBoot-Stepper                                                         ###
+//#############################################################################
+//### Version 1.06                                                          ###
+//###																		###
+//### Ardiono 2560 auf MKS Gen V1.4 Board                                   ###
+//### Datum			: 04.06.2019                                            ###
+//### Änderungen	:                                                       ###
+//###             		Ausgangsrelais hinzu                                ###
+//###             		R-Achse auf Timer 2                                 ###
+//###             		Z-Ache auf Timer 1 und 5 verteilt                   ###
+//###					Achsen Overflow hinzu				    			###
+//###					Externe Taster hinzu 	-> D23 / D25 / D27 / D29    ###
+//###				    Externe Taster geändert	-> D14 / D15 / D18 / D19    ###
+//###					com_out1 -> Aus - Auto - Ein -> Serial Modul	    ###
+//###					out1,1 -> Scheibe undurchsichtig                    ###
+//###					out1,0 -> Scheibe durchsichtig                      ###
+//###					Umstieg auf Windows								    ###
+//#############################################################################
 
 //#define DEBUG_defs
 //#define TEST_COM
