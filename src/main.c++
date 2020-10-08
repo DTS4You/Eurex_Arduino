@@ -20,7 +20,7 @@
 
 //#define DEBUG_defs
 //#define TEST_COM
-
+//#defibe TEST
 
 #include <RBD_Timer.h>         // https://github.com/alextaujenis/RBD_Timer
 #include <RBD_SerialManager.h> // https://github.com/alextaujenis/RBD_SerialManager
